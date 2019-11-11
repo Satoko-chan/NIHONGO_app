@@ -201,3 +201,25 @@ select {
 /* ==========
 header
 =============  */
+.top_menu {
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 10;
+}
+
+.jp_en {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #000;
+  color:#fff;
+}
+
+nav {
+  height: 80px;
+  line-height: 80px;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+}
+
