@@ -9,7 +9,7 @@ header {
       background-repeat: no-repeat;
       background-position: center;
       position: relative;
-      // height: 680px;
+      height: 660px;
 
       h3 {
         font-family: "Heiti TC";
@@ -192,6 +192,33 @@ main {
           }
         }
       }
+    }
+  }
+
+  #voice {
+    .voice_container {
+      text-align: center;
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      .voice {
+        display: flex;
+        // justify-content: space-evenly;
+        .voice_img {
+          img {
+            width: 80%;
+            height: auto;
+          }
+        }
+        .voice_text {
+          width: 50%;
+        }
+      }
+    }
+    button {
+      display: block;
+      width: 30%;
+      margin: 0 auto;
     }
   }
 }
