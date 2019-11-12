@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <section class="top_menu">
+  <section id="top_menu">
     <div class="jp_en">
       <i class="fas fa-globe-asia py-2 mr-3"></i>
       <p>jp / en</p>
@@ -51,6 +51,28 @@
   </section>
 
   <%= yield %>
+
+  <section id="footer_menu" class="py-5">
+    <div class="footer_menu_container">
+      <div class="footer_menu_left">
+        <h1>NIHONGO chat</h1>   
+      </div>
+      <div class="footer_menu_right">   
+        <h6>About us</h6>
+        <h6>Contact us</h6>
+        <h6>Terms of use</h6>
+        <h6>Specified Commercial Transaction Law</h6>
+        <h6>Privacy policy</h6>
+        <h6>Site link</h6>   
+      </div>
+    </div>
+  </section>
+
+  <section id="footer_menu_buttom" class="py-3">
+    <div class="footer_menu_buttom_container">
+      <p>Copyright MEDICI CORPORATION. All Rights Reserved.</p>
+    </div>
+  </section>
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

@@ -178,6 +178,7 @@ main {
   }
 
   #howtouse {
+    background-color: #e4e4e4;
     .howtouse_container {
       text-align: center;
       .howtouse_steps {
@@ -185,6 +186,7 @@ main {
         margin: 0 auto;
         .step {
           border: 1px solid #596070;
+          background-color: #fff;
           .step_title {
             display: flex;
             justify-content: center;
@@ -203,7 +205,6 @@ main {
       margin: 0 auto;
       .voice {
         display: flex;
-        // justify-content: space-evenly;
         .voice_img {
           img {
             width: 80%;
@@ -219,6 +220,18 @@ main {
       display: block;
       width: 30%;
       margin: 0 auto;
+    }
+  }
+
+  #whoweare {
+    background-color: #e4e4e4;
+    .whoweare_container {
+      width: 60%;
+      margin: 0 auto;
+      text-align: left;
+      h4 {
+        font-weight: lighter;
+      }
     }
   }
 }
