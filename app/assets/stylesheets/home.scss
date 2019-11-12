@@ -1,6 +1,7 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 header {
   .header_container {
     .header_bg {
@@ -41,11 +42,37 @@ header {
       height: 132px;
       align-items: center;
       color: #fff;
+      .infos {
+        .info {
+          display: flex;
+          letter-spacing: 1.5px;
+          line-height: 1.2;
+        }
+      }
     }
   }
 }
 
 main {
+  // ===== COMMON =====
+  .section_top {
+    background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
+    background-repeat: no-repeat;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: white;
+  }
+  span {
+    display: block;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-left: 56px solid transparent;
+    border-right: 56px solid transparent;
+    border-top: 18px solid rgb(68, 72, 78);
+  }
+
   #features {
     background-color: #e4e4e4;
     .features_top_text {
@@ -66,7 +93,6 @@ main {
           background: #fff;
           .feature_title {
             display: flex;
-            
           }
           h6 {
             line-height: 1.5;
@@ -111,9 +137,9 @@ main {
       .card-body {
         h5 {
           text-align: center;
-          letter-spacing: 3px;
+          letter-spacing: 2.5px;
           color: #e02020;
-          font-weight: bold;
+          font-weight: 800;
         }
       }
     }
@@ -148,41 +174,10 @@ main {
   }
 
   #teachers {
-    .teachers_top {
-      background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
-      background-repeat: no-repeat;
-      text-align: center;
-      color: white;
-    }
-    span {
-      display: block;
-      margin: 0 auto;
-      width: 0;
-      height: 0;
-      border-left: 28px solid transparent;
-      border-left: 56px solid transparent;
-      border-right: 56px solid transparent;
-      border-top: 18px solid rgb(68, 72, 78);
-    }
+    
   }
 
   #howtouse {
-    .howtouse_top {
-      background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
-      background-repeat: no-repeat;
-      text-align: center;
-      color: white;
-    }
-    span {
-      display: block;
-      margin: 0 auto;
-      width: 0;
-      height: 0;
-      border-left: 28px solid transparent;
-      border-left: 56px solid transparent;
-      border-right: 56px solid transparent;
-      border-top: 18px solid rgb(68, 72, 78);
-    }
     .howtouse_container {
       text-align: center;
       .howtouse_steps {
