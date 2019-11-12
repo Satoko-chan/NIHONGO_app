@@ -11,15 +11,44 @@ header {
       position: relative;
       height: 660px;
 
-      h3 {
-        font-family: "Heiti TC";
+      h5 {
+        font-family: open sans,Helvetica,Arial,sans-serif;
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         letter-spacing: 5px;
         color: #fff;
+        font-weight: lighter;
         text-align: center;
+      }
+
+      h1 {
+        // font-family: "Heiti TC";
+        font-family: open sans,Helvetica,Arial,sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 7px;
+        color: #fff;
+      }
+
+      .header_image_button {
+        .btn {
+          font-family: "Heiti TC";
+          position: absolute;
+          top: 65%; 
+          transform: translate(-50%, -50%);
+          letter-spacing: 5px;      
+        }
+        .btn1 {
+          left: 20%;
+        }
+        .btn2 {
+          left: 32%;
+        }
+
       }
     }
     .header_bg::before {
