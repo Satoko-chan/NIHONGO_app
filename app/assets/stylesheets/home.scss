@@ -45,16 +45,10 @@ header {
 }
 
 main {
-  .btw_main_space {
-    hr {
-      margin: 60px;
-    }
-  }
-
   #features {
     background-color: #e4e4e4;
     .features_top_text {
-      width: 80%;
+      width: 70%;
       margin: 3% auto;
       h3 {
         font-family: "Heiti TC";
@@ -62,7 +56,7 @@ main {
       }
     }
     .features_container {
-      width: 90%;
+      width: 80%;
       margin: 3% auto;
       #feature1,
       #feature2,
@@ -84,9 +78,42 @@ main {
         font-family: "Heiti TC";
         width: 80%;
         margin: 0 auto;
-        padding: 20px 0;
       }
     }
   }
-  
+
+  #goals {
+    background-color: #fff;
+    .goals_container {
+      width: 95%;
+      margin: 0 auto;
+      .goals_top_text {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        h3 {
+          font-weight: bold;
+          letter-spacing: 3px;
+        }
+      }
+    }
+    .goal1,
+    .goal2,
+    .goal3 {
+      img {
+        height: 200px;
+        object-fit: cover;
+      }
+      .card-body {
+        h5 {
+          text-align: center;
+          letter-spacing: 3px;
+          color: #E02020;
+          font-weight: bold;
+        }
+      }
+    }
+    
+  }
+
 }

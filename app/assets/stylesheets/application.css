@@ -211,8 +211,8 @@ header
 .jp_en {
   display: flex;
   padding: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 36px;
+  line-height: 36px;
   background-color: #000;
   color:#fff;
 }
