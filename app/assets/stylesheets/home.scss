@@ -11,7 +11,6 @@ header {
       height: 680px;
 
       h3 {
-        // font-family: open sans, Helvetica, Arial, sans-serif;
         font-family: "Heiti TC";
         position: absolute;
         top: 50%;
@@ -32,7 +31,7 @@ header {
       background-color: rgba(0, 0, 0, 0.5);
     }
   }
-  .header_info {
+  #header_info {
     background: linear-gradient(-45deg, #d13d45 0%, #e61b1b 100%);
     width: 100%;
 
@@ -46,10 +45,48 @@ header {
 }
 
 main {
-  .btw_header_space {
-    height: 120px;
+  .btw_main_space {
     hr {
       margin: 60px;
     }
   }
+
+  #features {
+    background-color: #e4e4e4;
+    .features_top_text {
+      width: 80%;
+      margin: 3% auto;
+      h3 {
+        font-family: "Heiti TC";
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+    .features_container {
+      width: 90%;
+      margin: 3% auto;
+      #feature1,
+      #feature2,
+      #feature3 { 
+       .text {
+         padding: 30px;
+         background: #fff;
+         .feature_title {
+           display: flex;
+         }
+       } 
+      }
+    }
+    .features_btm_text {
+      background-image: radial-gradient(circle farthest-side at 110% 0,#596070,#31353e);
+      background-repeat: no-repeat;
+      h3 {
+        color: #fff;
+        font-family: "Heiti TC";
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+      }
+    }
+  }
+  
 }
