@@ -63,10 +63,13 @@ main {
       #feature2,
       #feature3 {
         .text {
-          padding: 30px;
           background: #fff;
           .feature_title {
             display: flex;
+            
+          }
+          h6 {
+            line-height: 1.5;
           }
         }
       }
