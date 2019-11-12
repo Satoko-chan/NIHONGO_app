@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'teacher/top'
+
   get "/" => "home#top"
   
 

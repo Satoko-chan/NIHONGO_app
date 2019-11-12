@@ -1,0 +1,63 @@
+// Place all the styles related to the teacher controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+header {
+  .teacher_header_container {
+    .teacher_header_bg {
+      img {
+        height: 660px;
+        object-fit: cover;
+      }
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      height: 660px;
+
+      .teacher_header_text {
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        h5 {
+          font-family: "Heiti TC";  
+          letter-spacing: 5px;
+          color: #fff;
+          font-weight: lighter;
+          text-align: center;
+        }
+      }
+
+      h3 {
+        font-family: "Heiti TC";
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 7px;
+        color: #fff;
+        text-align: center;
+      }
+
+      .header_image_button {
+          font-family: "Heiti TC";
+          position: absolute;
+          top: 80%; 
+          left: 50%;
+          transform: translate(-50%, -50%);
+          letter-spacing: 5px;      
+      }
+    }
+    .teacher_header_bg::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
