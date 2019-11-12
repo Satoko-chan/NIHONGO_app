@@ -228,7 +228,7 @@ nav {
 FOOTER
 =============  */
 #footer_menu {
-  background-color: rgba(0,0,0,.9);
+  background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
   color: rgba(255,255,255,.8);
 }
 .footer_menu_container {

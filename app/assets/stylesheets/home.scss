@@ -74,7 +74,7 @@ main {
   }
 
   #features {
-    background-color: #e4e4e4;
+    background-image: url("/washi_background_white.jpg");
     .features_top_text {
       width: 70%;
       margin: 3% auto;
@@ -101,7 +101,7 @@ main {
       }
     }
     .features_btm_text {
-      background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
+      background-image: url("/washi_background_red.jpg");
       background-repeat: no-repeat;
       h4 {
         color: #fff;
@@ -146,7 +146,7 @@ main {
   }
 
   #fee {
-    background-color: #e4e4e4;
+    background-image: url("/washi_background_white.jpg");
     .fee_container {
       width: 80%;
       margin: 0 auto;
@@ -178,7 +178,7 @@ main {
   }
 
   #howtouse {
-    background-color: #e4e4e4;
+    background-image: url("/washi_background_white.jpg");
     .howtouse_container {
       text-align: center;
       .howtouse_steps {
@@ -224,13 +224,27 @@ main {
   }
 
   #whoweare {
-    background-color: #e4e4e4;
+    background-image: url("/washi_background_white.jpg");
     .whoweare_container {
       width: 60%;
       margin: 0 auto;
       text-align: left;
       h4 {
         font-weight: lighter;
+      }
+    }
+  }
+
+  #footer_info {
+    background-image: url(/washi_background_red.jpg);
+    height: 100px;
+    .footer_info_container {
+      width: 70%;
+      margin: 0 auto;
+      h4 {
+        color: #fff;
+        font-family: "Heiti TC";
+        margin: 0 auto;
       }
     }
   }
