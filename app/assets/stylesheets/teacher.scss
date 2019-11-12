@@ -22,7 +22,7 @@ header {
         transform: translate(-50%, -50%);
 
         h5 {
-          font-family: "Heiti TC";  
+          font-family: "Heiti TC";
           letter-spacing: 5px;
           color: #fff;
           font-weight: lighter;
@@ -42,12 +42,12 @@ header {
       }
 
       .header_image_button {
-          font-family: "Heiti TC";
-          position: absolute;
-          top: 80%; 
-          left: 50%;
-          transform: translate(-50%, -50%);
-          letter-spacing: 5px;      
+        font-family: "Heiti TC";
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 5px;
       }
     }
     .teacher_header_bg::before {
@@ -58,6 +58,53 @@ header {
       bottom: 0;
       left: 0;
       background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+main {
+  // ===== COMMON =====
+  .section_top {
+    background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
+    background-repeat: no-repeat;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: white;
+  }
+  span {
+    display: block;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-left: 56px solid transparent;
+    border-right: 56px solid transparent;
+    border-top: 18px solid rgb(68, 72, 78);
+  }
+
+  #teacher_features {
+    background-color: #e4e4e4;
+    .teacher_features_container {
+      width: 80%;
+      margin: 3% auto;
+      .teacher_features_top_text {
+        text-align: center;
+      }
+      .teacher_features_cards {
+        .card-title {
+          display: flex;
+        }
+      }
+    }
+  }
+  .teacher_features_btm_text {
+    background-image: url("/washi_background_red.jpg");
+    background-repeat: no-repeat;
+    h4 {
+      color: #fff;
+      font-family: "Heiti TC";
+      width: 80%;
+      margin: 0 auto;
     }
   }
 }
