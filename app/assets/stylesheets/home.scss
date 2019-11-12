@@ -8,7 +8,7 @@ header {
       background-repeat: no-repeat;
       background-position: center;
       position: relative;
-      height: 680px;
+      // height: 680px;
 
       h3 {
         font-family: "Heiti TC";
@@ -38,8 +38,9 @@ header {
     .header_info_container {
       display: flex;
       justify-content: space-around;
-      height: 120px;
+      height: 132px;
       align-items: center;
+      color: #fff;
     }
   }
 }
@@ -60,20 +61,20 @@ main {
       margin: 3% auto;
       #feature1,
       #feature2,
-      #feature3 { 
-       .text {
-         padding: 30px;
-         background: #fff;
-         .feature_title {
-           display: flex;
-         }
-       } 
+      #feature3 {
+        .text {
+          padding: 30px;
+          background: #fff;
+          .feature_title {
+            display: flex;
+          }
+        }
       }
     }
     .features_btm_text {
-      background-image: radial-gradient(circle farthest-side at 110% 0,#596070,#31353e);
+      background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
       background-repeat: no-repeat;
-      h3 {
+      h4 {
         color: #fff;
         font-family: "Heiti TC";
         width: 80%;
@@ -91,7 +92,7 @@ main {
         width: 70%;
         margin: 0 auto;
         text-align: center;
-        h3 {
+        h2 {
           font-weight: bold;
           letter-spacing: 3px;
         }
@@ -108,12 +109,38 @@ main {
         h5 {
           text-align: center;
           letter-spacing: 3px;
-          color: #E02020;
+          color: #e02020;
           font-weight: bold;
         }
       }
     }
-    
   }
 
+  #fee {
+    background-color: #fff;
+    .fee_container {
+      width: 80%;
+      margin: 0 auto;
+      .fee_top_text {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        h2 {
+          font-weight: bold;
+          letter-spacing: 3px;
+        }
+      }
+      .fee_comparison {
+        img {
+          width: 90%;
+          margin: 0 auto;
+          display: block;
+        }
+        .fee_comparison_text {
+          width: 80%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
 }
