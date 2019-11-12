@@ -117,7 +117,7 @@ main {
   }
 
   #fee {
-    background-color: #fff;
+    background-color: #e4e4e4;
     .fee_container {
       width: 80%;
       margin: 0 auto;
@@ -139,6 +139,59 @@ main {
         .fee_comparison_text {
           width: 80%;
           margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  #teachers {
+    .teachers_top {
+      background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
+      background-repeat: no-repeat;
+      text-align: center;
+      color: white;
+    }
+    span {
+      display: block;
+      margin: 0 auto;
+      width: 0;
+      height: 0;
+      border-left: 28px solid transparent;
+      border-left: 56px solid transparent;
+      border-right: 56px solid transparent;
+      border-top: 18px solid rgb(68, 72, 78);
+    }
+  }
+
+  #howtouse {
+    .howtouse_top {
+      background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
+      background-repeat: no-repeat;
+      text-align: center;
+      color: white;
+    }
+    span {
+      display: block;
+      margin: 0 auto;
+      width: 0;
+      height: 0;
+      border-left: 28px solid transparent;
+      border-left: 56px solid transparent;
+      border-right: 56px solid transparent;
+      border-top: 18px solid rgb(68, 72, 78);
+    }
+    .howtouse_container {
+      text-align: center;
+      .howtouse_steps {
+        width: 70%;
+        margin: 0 auto;
+        .step {
+          border: 1px solid #596070;
+          .step_title {
+            display: flex;
+            justify-content: center;
+            letter-spacing: 1.5px;
+          }
         }
       }
     }
