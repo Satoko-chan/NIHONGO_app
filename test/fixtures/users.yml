@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  age: 1
+  gender: 1
+  email: MyString
+  user_image: MyString
+  skype_name: MyString
+  national: MyString
+  living_country: MyString
+  user_about: MyText
+  password_digest: MyString
+  japanese_level: 1
+  teacher_message: MyText
+  teacher_aboutlesson: MyText
+  fee: 1
+  teacher_tag: 1
+
+two:
+  name: MyString
+  age: 1
+  gender: 1
+  email: MyString
+  user_image: MyString
+  skype_name: MyString
+  national: MyString
+  living_country: MyString
+  user_about: MyText
+  password_digest: MyString
+  japanese_level: 1
+  teacher_message: MyText
+  teacher_aboutlesson: MyText
+  fee: 1
+  teacher_tag: 1
