@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'messages/index'
+
   get 'users/index'
 
   get 'teacher/top'
