@@ -14,6 +14,10 @@ class UsersController < ApplicationController
   end
 
   def teacher_index
+
+  end
+
+  def teacher_profile
     
   end
 end
