@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   post "login" => "users#login"
   get "users/:id/student" => "users#show"
   get "users/:id/teacher" => "users#show2"
+  get "users/teacher_index" => "users#teacher_index"
 
   
 

@@ -10,6 +10,10 @@ class UsersController < ApplicationController
   end
 
   def show2
+
+  end
+
+  def teacher_index
     
   end
 end
