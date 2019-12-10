@@ -13,7 +13,7 @@ class UsersController < ApplicationController
       skype_name: params[:skype_name], 
       password: params[:password])
     if @user.save
-      # session
+      session[:user_id] = @user.id
       # flash
       redirect_to("/users/#{@user.id}/student")
     else
@@ -33,7 +33,7 @@ class UsersController < ApplicationController
     @user = User.find_by(
       email: params[:email])
     if @user && @user.authenticate(params[:password])
-      # session
+      session[:user_id] = @user.id
       # flash
       redirect_to("/users/#{@user.id}/student")
     else
