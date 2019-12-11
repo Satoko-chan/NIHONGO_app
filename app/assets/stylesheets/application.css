@@ -197,20 +197,19 @@ select {
   box-sizing: border-box;
 }
 
-
 /* ==========
 HEADER
 =============  */
 #top_menu {
   position: fixed;
   top: 0;
-  width: 100%; 
+  width: 100%;
   z-index: 10;
 }
 
 .national_hour {
-  height: 24px; 
-  background-color: #000; 
+  height: 24px;
+  background-color: #000;
 }
 .national_hour_container {
   width: 60%;
@@ -219,7 +218,7 @@ HEADER
   justify-content: space-between;
   padding: 0 20px;
   line-height: 24px;
-  color:rgba(255, 255, 255, 0.774);
+  color: rgba(255, 255, 255, 0.774);
   font-weight: lighter;
   font-size: 14px;
 }
@@ -232,16 +231,22 @@ HEADER
 nav {
   height: 80px;
   line-height: 80px;
-  background-color: rgba(255,255,255,0.9);
-  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* ==========
 FOOTER
 =============  */
 #footer_menu {
-  background-image: radial-gradient(circle farthest-side at 110% 0, #596070, #31353e);
-  color: rgba(255,255,255,.8);
+  background-image: radial-gradient(
+    circle farthest-side at 110% 0,
+    #596070,
+    #31353e
+  );
+  color: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  width: 100%;
 }
 .footer_menu_container {
   width: 70%;

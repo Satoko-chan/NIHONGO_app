@@ -1,45 +1,56 @@
-<h1>User mypage margin-top 104px</h1>
-<sectioniv class="student_mypage">
-    <div class="student_mypage_container">
-        <section class="student_mypage_top">
-            <div class="profile">
-                <div class="profile_left">
-                    <img src="/student_default.png" alt="">
-                    <!-- <img src="/students/#{@user.user_image}" alt=""> -->
-                </div>
-                <div class="profile_right">
-                    <p>Sally</p>
-                    <%= link_to("Edit profile", "#")%>
-                </div>        
-            </div>
-            <div class="lessons">
-                <i class="fas fa-graduation-cap"></i>
-                <p>25</p>
-                <p>Lessons you took</p>
-            </div>
-            <div class="coins">
-                <i class="fas fa-coins"></i>
-                <p>52</p>
-                <p>Coins you have</p>
-            </div>
-        </section>
-        <section class="question">
-            <div class="question_container">
-                <i class="fas fa-question"></i>
-                <p>If you have any questions, please feel free to contact us.</p>
-            </div>
-        </section>
-        <section class="message">
-            <div class="message_container">
-                <div class="message_box">
-                    <p>You don’t have lessons yet.</p>
-                    <p>To take a lesson, click find teacher to find your teacher.</p>
-                    <p>Do you have any difficulty?</p>
-                    <p>Conttact us from contactfrom.</p>
-                    <p>Don’t know how to use?</p>
-                    <p>Check how to use page.</p>     
-                </div>
-            </div>
-        </section>
-    </div>
-</section class="">
+<div class="header"></div>
+
+<section class="student_mypage">
+  <div class="student_mypage_container">
+    <section class="student_mypage_top">
+      <ul class="list-group list-group-horizontal-xl">
+        <li class="list-group-item profile">
+          <div class="profile_left">
+            <img src="/student_default.png" alt="" class="ml-4" />
+            <!-- <img src="/students/#{@user.user_image}" alt=""> -->
+          </div>
+          <div class="profile_right ml-3">
+            <p>Sally</p>
+            <%= link_to("Edit profile", "#")%>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <i class="fas fa-graduation-cap fa-2x"></i>
+          <p>25</p>
+          <p>Lessons you took</p>
+        </li>
+        <li class="list-group-item">
+          <i class="fas fa-coins fa-2x"></i>
+          <p>52</p>
+          <p>Coins you have</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="question">
+      <div class="question_container">
+        <a href="#"><i class="fas fa-question fa-3x mr-3"></i></a>
+        <a href="#"
+          ><p>If you have any questions, please feel free to contact us.</p></a
+        >
+      </div>
+    </section>
+    <section class="message">
+      <div class="message_container">
+        <div class="message_box">
+          <p>You don’t have lessons yet.</p>
+          <p>
+            To take a lesson, click <a>find teacher</a> to find your teacher.
+          </p>
+          <br />
+          <p>Do you have any difficulty?</p>
+
+          <p>Conttact us from <a>contactfrom</a>.</p>
+          <br />
+          <p>Don’t know how to use?</p>
+          <p>Check <a>how to use page</a>.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
