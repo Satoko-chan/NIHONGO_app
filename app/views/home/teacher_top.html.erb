@@ -11,9 +11,11 @@
           <h5>✔︎ TOEIC750以上　・・・etc</h5>
         </div>
         <div class="header_image_button">
-          <button type="button" class="btn1 btn btn-danger btn-lg px-4">
+          <%= link_to("/signup") do %>
+          <button class="btn1 btn btn-danger btn-lg px-4">
             新規登録してみる
           </button>
+          <% end %>
         </div>
       </div>
     </div>
@@ -219,9 +221,11 @@
         <h3>まずは無料先生登録から</h3>
       </div>
       <div class="teacher_info_btn">
-        <button type="button" class="btn1 btn btn-danger btn-lg px-4">
+        <%= link_to("/signup") do %>
+        <button class="btn1 btn btn-danger btn-lg px-4">
           新規登録してみる
         </button>
+        <% end %>
       </div>
     </div>
   </section>

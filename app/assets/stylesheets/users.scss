@@ -67,14 +67,38 @@
   .message {
     background-image: url("/washi_background_white.jpg");
     .message_container {
-      width: 70%;
+      width: 80%;
       margin: 0 auto;
       padding: 5% 0;
       .message_box {
+        background-color: #fff;
+        padding: 5%;
         p {
           margin-bottom: 10px;
           a {
             color: #e02020;
+          }
+        }
+        .box {
+          border: 1px solid #000;
+          margin-bottom: 10px;
+          padding: 15px 0;
+          display: flex;
+          .box_container {
+            display: flex;
+            justify-content: space-around;
+            width: 97%;
+            align-items: center;
+            p {
+              font-size: 30px;
+              font-weight: bolder;
+            }
+          }
+          .new_message {
+            width: 3%;
+            i {
+              color: #e02020;
+            }
           }
         }
       }

@@ -3,36 +3,64 @@
     <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active header_bg">
-          <img src="/student_top_1.jpg" class="w-100" alt="top1">
+          <img src="/student_top_1.jpg" class="w-100" alt="top1" />
           <h3>Do you want to speak Japanese??</h3>
           <div class="header_image_button">
-              <button type="button" class="btn1 btn btn-danger btn-lg px-4">Sign in</button>
-              <button type="button" class="btn2 btn btn-light btn-lg px-4">More info..</button>
-          </div> 
+            <%= link_to("/signup") do %>
+            <button class="btn1 btn btn-danger btn-lg">Sign in</button>
+            <% end %>
+            <a href="#features">
+              <button class="btn2 btn btn-light btn-lg px-4">
+                More info..
+              </button>
+            </a>
+          </div>
         </div>
         <div class="carousel-item header_bg">
-          <img src="/top_student_2.jpg" class="w-100" alt="top2">
+          <img src="/top_student_2.jpg" class="w-100" alt="top2" />
           <h5>DON'T JUST LEARN JAPANESE</h5>
           <h3>learn japan</h3>
           <div class="header_image_button">
-              <button type="button" class="btn1 btn btn-danger btn-lg">Sign in</button>
-              <button type="button" class="btn2 btn btn-light btn-lg">More info..</button>
-          </div> 
+            <%= link_to("/signup") do %>
+            <button class="btn1 btn btn-danger btn-lg">Sign in</button>
+            <% end %>
+            <a href="#features">
+              <button class="btn2 btn btn-light btn-lg px-4">
+                More info..
+              </button>
+            </a>
+          </div>
         </div>
         <div class="carousel-item header_bg">
-          <img src="/kimono.jpg" class="w-100" alt="top3">
-          <h3>Learn 'living' Japanese from <br>real Japanese</h3>
+          <img src="/kimono.jpg" class="w-100" alt="top3" />
+          <h3>Learn 'living' Japanese from <br />real Japanese</h3>
           <div class="header_image_button">
-              <button type="button" class="btn1 btn btn-danger btn-lg">Sign in</button>
-              <button type="button" class="btn2 btn btn-light btn-lg">More info</button>
-          </div> 
+            <%= link_to("/signup") do %>
+            <button class="btn1 btn btn-danger btn-lg">Sign in</button>
+            <% end %>
+            <a href="#features">
+              <button class="btn2 btn btn-light btn-lg px-4">
+                More info..
+              </button>
+            </a>
+          </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+      <a
+        class="carousel-control-prev"
+        href="#carouselIndicators"
+        role="button"
+        data-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+      <a
+        class="carousel-control-next"
+        href="#carouselIndicators"
+        role="button"
+        data-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -56,18 +84,22 @@
           <p>TOEIC750以上・・・etc</p>
         </div>
       </div>
-      <a href="#" class="btn btn-outline-dark px-5 py-3">もっと詳しく</a>
+      <%= link_to("/teacher") do %>
+      <div class="btn btn-outline-dark px-5 py-3">もっと詳しく</div>
+      <% end %>
     </div>
   </section>
 </header>
 
-<hr class="my-5 mx-5">
+<hr class="my-5 mx-5" />
 
 <main>
   <section class="pt-5" id="features">
     <div class="features_top_text">
-      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.</h3>
+      <h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </h3>
     </div>
 
     <div class="features_container">
@@ -77,11 +109,14 @@
             <i class="fas fa-chalkboard-teacher fa-2x"></i>
             <h3 class="mb-5 ml-3">One-on-one lesson</h3>
           </div>
-          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
+          <h6>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
         </div>
         <div class="img col-md-7">
-          <img src="/feature_1.jpg" class="w-100">
+          <img src="/feature_1.jpg" class="w-100" />
         </div>
       </div>
 
@@ -91,11 +126,14 @@
             <i class="fas fa-globe-asia fa-2x"></i>
             <h3 class="text-md-right mb-5 ml-3">Any time any where</h3>
           </div>
-          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
+          <h6>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
         </div>
         <div class="img col-md-7 order-md-1">
-          <img src="/feature_2.png" class="w-100">
+          <img src="/feature_2.png" class="w-100" />
         </div>
       </div>
 
@@ -105,17 +143,22 @@
             <i class="fas fa-hand-holding-usd fa-2x"></i>
             <h3 class="mb-5 ml-3">Reasonal price</h3>
           </div>
-          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
+          <h6>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
         </div>
         <div class="img col-md-7">
-          <img src="/feature_3.png" class="w-100">
+          <img src="/feature_3.png" class="w-100" />
         </div>
       </div>
     </div>
     <div class="features_btm_text">
-      <h4 class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.</h4>
+      <h4 class="py-4">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </h4>
     </div>
   </section>
 
@@ -123,31 +166,43 @@
     <div class="goals_container">
       <div class="goals_top_text">
         <h2 class="my-3">STUDY GOALS</h2>
-        <h6 class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
+        <h6 class="mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.
+        </h6>
       </div>
       <div class="card-group my-5">
         <div class="goal1 card">
-          <img src="/goal_1.jpg" class="card-img-top" alt="goal1">
+          <img src="/goal_1.jpg" class="card-img-top" alt="goal1" />
           <div class="card-body">
             <h5 class="card-title">TRAVEL</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
           </div>
         </div>
         <div class="goal2 card">
-          <img src="/goal_2.jpg" class="card-img-top" alt="goal2">
+          <img src="/goal_2.jpg" class="card-img-top" alt="goal2" />
           <div class="card-body">
             <h5 class="card-title">IMIGRATE</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
           </div>
         </div>
         <div class="goal3 card">
-          <img src="/goal_3.jpg" class="card-img-top" alt="goal3">
+          <img src="/goal_3.jpg" class="card-img-top" alt="goal3" />
           <div class="card-body">
             <h5 class="card-title">BUSINESS</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
           </div>
         </div>
       </div>
@@ -158,15 +213,20 @@
     <div class="fee_container">
       <div class="fee_top_text">
         <h2 class="my-3">OUR FEE</h2>
-        <h6 class="mb-5">NIHONGO CHAT does not charge a high monthly fee.<br>
-          At your convenience, you can feel free to take as many lessons as you need.</h6>
+        <h6 class="mb-5">
+          NIHONGO CHAT does not charge a high monthly fee.<br />
+          At your convenience, you can feel free to take as many lessons as you
+          need.
+        </h6>
       </div>
       <div class="fee_comparison">
-        <img src="/fee_comparison.png" alt="fee_comparison">
+        <img src="/fee_comparison.png" alt="fee_comparison" />
         <div class="fee_comparison_text my-5">
-          <p>* Lesson fees vary by online teacher.<br>
-            * One coin costs about $2.<br>
-            * After registering as a students, please purchase coins and take lessons.
+          <p>
+            * Lesson fees vary by online teacher.<br />
+            * One coin costs about $2.<br />
+            * After registering as a students, please purchase coins and take
+            lessons.
           </p>
         </div>
       </div>
@@ -198,10 +258,14 @@
             <i class="fab fa-skype fa-2x"></i>
             <h3 class="ml-3">Install Skype</h3>
           </div>
-          <h6 class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
-          <button type="button" class="btn btn-danger py-2 px-5">Install Skype</button>
+          <h6 class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
+          <button type="button" class="btn btn-danger py-2 px-5">
+            Install Skype
+          </button>
         </div>
 
         <div class="step step2 py-4 px-5 my-3">
@@ -210,10 +274,14 @@
             <i class="far fa-edit fa-2x"></i>
             <h3 class="ml-3">Easy student registration</h3>
           </div>
-          <h6 class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
-          <button type="button" class="btn btn-danger py-2 px-5">Student registration</button>
+          <h6 class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
+          <%= link_to("/signup") do %>
+          <button class="btn btn-danger py-2 px-5">Student registration</button>
+          <% end %>
         </div>
 
         <div class="step step3 py-4 px-5 my-3">
@@ -222,10 +290,14 @@
             <i class="fas fa-search fa-2x"></i>
             <h3 class="ml-3">Find a teacher</h3>
           </div>
-          <h6 class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
-          <button type="button" class="btn btn-danger py-2 px-5">Our teachers</button>
+          <h6 class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
+          <button type="button" class="btn btn-danger py-2 px-5">
+            Our teachers
+          </button>
         </div>
 
         <div class="step step4 py-4 px-5 my-3">
@@ -234,9 +306,11 @@
             <i class="far fa-comments fa-2x"></i>
             <h3 class="ml-3">Message the teacher</h3>
           </div>
-          <h6 class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
+          <h6 class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
         </div>
 
         <div class="step step1 py-5 px-5 my-3">
@@ -245,9 +319,11 @@
             <i class="fas fa-headset fa-2x"></i>
             <h3 class="ml-3">Start online lessons with Skype</h3>
           </div>
-          <h6 class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
+          <h6 class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
         </div>
 
         <div class="step step6 py-5 px-5 my-3">
@@ -256,13 +332,17 @@
             <i class="fas fa-comment-dollar fa-2x"></i>
             <h3 class="ml-3">Pay the fee by coins</h3>
           </div>
-          <h6 class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </h6>
+          <h6 class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </h6>
         </div>
         <div class="howtouse_question my-5">
           <h2 class="mb-4">Got any question?</h2>
-          <h6>Send us a message via the chat or contact us via the inquiry <strong style="color: red">form</strong>.
+          <h6>
+            Send us a message via the chat or contact us via the inquiry
+            <strong style="color: red">form</strong>.
           </h6>
         </div>
       </div>
@@ -278,28 +358,34 @@
     <div class="voice_container py-5">
       <div class="voice">
         <div class="voice_img">
-          <img src="/user_photo_sample.png" alt="user_sample">
+          <img src="/user_photo_sample.png" alt="user_sample" />
         </div>
         <div class="voice_text">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </p>
+          <p class="mb-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </p>
           <h6>Satoko Wakasa, Vancouver, CANADA</h6>
         </div>
       </div>
       <div class="voice">
         <div class="voice_img">
-          <img src="/user_photo_sample.png" alt="user_sample">
+          <img src="/user_photo_sample.png" alt="user_sample" />
         </div>
         <div class="voice_text">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et
-            dolore magna aliqua. Ut enim ad minim veniam, </p>
+          <p class="mb-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </p>
           <h6>Satoko Wakasa, Vancouver, CANADA</h6>
         </div>
       </div>
     </div>
-    <button type="button" class="btn btn-danger py-2 px-5 mb-5">See all reviews</button>
+    <button type="button" class="btn btn-danger py-2 px-5 mb-5">
+      See all reviews
+    </button>
   </section>
 
   <section id="whoweare" class="pb-5">
@@ -309,20 +395,35 @@
     </div>
     <span></span>
     <div class="whoweare_container">
-      <h4 class="py-2 mt-5">Company :&nbsp <strong>Medici Corporation</strong></h4>
-      <h4 class="py-2">Representative Director :&nbsp <strong>Keita Yamamoto</strong></h4>
-      <h4 class="py-2">Location :&nbsp <strong>Perte-Daitabashi 1-2-3 Izumi, Suginami-ku, Tokyo</strong></h4>
-      <h4 class="py-2">Date of establishment:&nbsp <strong>February 2015</strong></h4>
-      <h4 class="py-2">Our business :&nbsp <strong>Web service planning, production, operation</strong></h4>
-      <h4 class="py-2 mb-5">Contact:&nbsp <strong>info@medicihiroba.com</strong></h4>
+      <h4 class="py-2 mt-5">
+        Company :&nbsp <strong>Medici Corporation</strong>
+      </h4>
+      <h4 class="py-2">
+        Representative Director :&nbsp <strong>Keita Yamamoto</strong>
+      </h4>
+      <h4 class="py-2">
+        Location :&nbsp
+        <strong>Perte-Daitabashi 1-2-3 Izumi, Suginami-ku, Tokyo</strong>
+      </h4>
+      <h4 class="py-2">
+        Date of establishment:&nbsp <strong>February 2015</strong>
+      </h4>
+      <h4 class="py-2">
+        Our business :&nbsp
+        <strong>Web service planning, production, operation</strong>
+      </h4>
+      <h4 class="py-2 mb-5">
+        Contact:&nbsp <strong>info@medicihiroba.com</strong>
+      </h4>
     </div>
   </section>
 
   <section id="footer_info" class="py-3">
     <div class="footer_info_container">
-      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.</h4>
+      <h4>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </h4>
     </div>
   </section>
-
 </main>
