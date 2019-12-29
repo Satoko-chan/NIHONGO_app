@@ -59,4 +59,8 @@ class UsersController < ApplicationController
   def teacher_profile
     
   end
+
+  def teacher_search
+    
+  end
 end

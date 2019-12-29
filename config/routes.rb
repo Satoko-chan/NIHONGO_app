@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get "users/:id/teacher" => "users#show2"
   get "users/teacher_index" => "users#teacher_index"
   get "users/teacher_profile/:id" => "users#teacher_profile"
+  get "users/teacher_search" => "users#teacher_search"
 
   
 
