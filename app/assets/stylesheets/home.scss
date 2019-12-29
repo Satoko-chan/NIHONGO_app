@@ -202,6 +202,26 @@ main {
   }
 
   #teachers {
+    text-align: center;
+    .teachers_container {
+      .teachers {
+        display: flex;
+        .teacher {
+          position: relative;
+          padding: 3% 2%;
+          margin: 5% 1% 0 1%;
+          border: solid 1px #000;
+          .trial {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #e02020;
+            color: #fff;
+            padding: 3%;
+          }
+        }
+      }
+    }
   }
 
   #howtouse {
